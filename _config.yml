@@ -25,10 +25,13 @@ github_link: https://github.com/Oscar-dzy
 
 # Portrait and personal ZD favicon (shared by light and dark browser themes).
 avatar: ./assets/img/ziyang-ding-portrait.jpg
-favicon: ./assets/img/zd-favicon-32.png
-favicon_svg: ./assets/img/zd-favicon.svg
-favicon_ico: ./favicon.ico
-apple_touch_icon: ./assets/img/zd-favicon-180.png
+favicon: /favicon-32x32.png
+favicon_16: /favicon-16x16.png
+favicon_48: /favicon-48x48.png
+favicon_ico: /favicon-v2.ico
+apple_touch_icon: /apple-touch-icon.png
+safari_mask_icon: /safari-pinned-tab.svg
+favicon_version: zd2
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

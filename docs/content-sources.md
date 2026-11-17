@@ -73,11 +73,20 @@ Ziyang Ding selected concept 01, **ZD Monogram**, on November 18, 2026.
 The original vector artwork is `assets/img/zd-favicon.svg`: ivory ZD initials
 on a midnight-blue rounded square, with transparent outer corners. It was
 chosen from five favicon concepts prepared for the homepage.
-Native SVG rasterization supplies 32, 180, and 512 px PNG assets. The root
-`favicon.ico` includes 16, 32, 48, 64, 128, and 256 px versions. The homepage
-links SVG, PNG and ICO favicons and an Apple touch icon. Light and dark
-browser themes share the selected design; the template favicon switcher
-is no longer loaded.
+Native SVG rasterization supplies the PNG assets. After a reported Safari
+display issue, ordinary tab icons use explicit 16, 32, and 48 px PNG files
+at the site root, plus a classic bitmap ICO containing 16, 32, 48, and
+64 px frames. `favicon.ico` and `favicon-v2.ico` contain the same icon.
+The root `apple-touch-icon.png` is an opaque 180 px PNG. A separate
+`safari-pinned-tab.svg` supplies a black ZD silhouette on transparency with
+a 16 × 16 viewBox, following Apple's
+[pinned tab icon specification](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html).
+The page uses root-relative, versioned icon URLs (`v=zd2`) so the new icon
+resources can bypass previous cached URLs. SVG remains the vector master;
+it is not offered as the ordinary tab favicon. Light and dark browser
+themes share the selected design; the template favicon switcher is no
+longer loaded. Native Safari display still requires checking in Safari;
+HTTP and document checks alone do not establish that its UI refreshed.
 
 ## News and section order
 

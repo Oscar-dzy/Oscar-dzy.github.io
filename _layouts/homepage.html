@@ -14,10 +14,12 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
-    <link rel="icon" href="{{ site.favicon_ico }}" sizes="any" />
-    <link rel="icon" href="{{ site.favicon }}" type="image/png" sizes="32x32" />
-    <link rel="icon" href="{{ site.favicon_svg }}" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="{{ site.apple_touch_icon }}" sizes="180x180" />
+    <link rel="icon" href="{{ site.favicon_ico | relative_url }}?v={{ site.favicon_version }}" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" />
+    <link rel="icon" href="{{ site.favicon_16 | relative_url }}?v={{ site.favicon_version }}" type="image/png" sizes="16x16" />
+    <link rel="icon" href="{{ site.favicon | relative_url }}?v={{ site.favicon_version }}" type="image/png" sizes="32x32" />
+    <link rel="icon" href="{{ site.favicon_48 | relative_url }}?v={{ site.favicon_version }}" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="{{ site.apple_touch_icon | relative_url }}?v={{ site.favicon_version }}" sizes="180x180" />
+    <link rel="mask-icon" href="{{ site.safari_mask_icon | relative_url }}?v={{ site.favicon_version }}" color="#0b3458" />
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
