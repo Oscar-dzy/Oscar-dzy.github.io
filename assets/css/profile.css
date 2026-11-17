@@ -13,9 +13,9 @@ header .image.avatar img {
   display: inline-block;
   margin-left: 6px;
   font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
-  font-size: 0.65em;
+  font-size: 0.9em;
   font-weight: normal;
-  vertical-align: 2px;
+  vertical-align: baseline;
   white-space: nowrap;
 }
 section > h2:not(:first-child) { margin-top: 28px; }

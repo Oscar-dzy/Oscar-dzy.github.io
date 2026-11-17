@@ -14,10 +14,10 @@ I welcome opportunities for research discussions and collaboration. Please feel 
 
 - **Multimodal Large Language Models:** reasoning and decision-making.
 
-<h2 id="news">News <span class="news-fireworks" aria-hidden="true">🎆 🎇 🎆</span></h2>
+## News
 
-- **[Sept. 2026]** Our paper **CoLVR** has been accepted to **NeurIPS 2026**!
-- **[Aug. 2026]** Our paper **Q-Flow** has been accepted to **CIKM 2026**!
+- **[Sept. 2026]** Our paper **CoLVR** has been accepted to **NeurIPS 2026**! <span class="news-fireworks" aria-hidden="true">🎉 🎆</span>
+- **[Aug. 2026]** Our paper **Q-Flow** has been accepted to **CIKM 2026**! <span class="news-fireworks" aria-hidden="true">🎉 🎆</span>
 
 {% include_relative _includes/publications.md %}
 

@@ -29,7 +29,7 @@ preprint in the profile, although its original arXiv submission was in 2025.
 | Q-Flow | [Official CIKM program](https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html), [ACM DOI](https://doi.org/10.1145/3799682.3841002) | `assets/img/publications/q-flow.png`: method framework uploaded by Ziyang Ding on November 18, 2026; white page margins trimmed. The paper link uses its verified DOI. |
 | UniAfford | [arXiv](https://arxiv.org/abs/2609.37264), [project](https://4dvlab.github.io/UniAfford/) | `assets/img/publications/uniafford.png`: method framework, Figure 2, PDF page 5. |
 | Unbiased Top-k Estimation | [arXiv](https://arxiv.org/abs/2609.34447) | `assets/img/publications/on-policy-distillation.png`: TT-OPD method framework, Figure 1, PDF page 1. |
-| CoLVR | [arXiv](https://arxiv.org/abs/2605.08802), [author repository](https://github.com/Oscar-dzy/CoLVR), [project page](https://oscar-dzy.github.io/CoLVR-project-page/) | `assets/img/publications/colvr.png`: method framework, Figure 2, PDF page 5. NeurIPS acceptance is confirmed in the arXiv comments. The project link is displayed as a link icon between PDF and Code. |
+| CoLVR | [arXiv](https://arxiv.org/abs/2605.08802), [author repository](https://github.com/Oscar-dzy/CoLVR), [project page](https://oscar-dzy.github.io/CoLVR-project-page/) | `assets/img/publications/colvr.png`: method framework, Figure 2, PDF page 5. NeurIPS acceptance is confirmed in the arXiv comments. The project link is a Project Page text button matching UniAfford, positioned between PDF and Code. |
 | KARL | [arXiv](https://arxiv.org/abs/2503.12797), [author repository](https://github.com/thunlp/KARL) | `assets/img/publications/karl.png`: Figure 1, PDF page 2, as requested, showing the knowledge-grounding gap and benchmark comparison. |
 
 PDF thumbnails are rendered from the original PDFs, then cropped to the original
@@ -41,7 +41,13 @@ the figures. Clicking a preview opens the unchanged full figure in a new tab;
 paper titles and publication buttons retain their original destinations.
 Selected and Others have pale-yellow heading bars. They are not generated
 illustrations. The author name Zitang Gou in Unbiased Top-k Estimation was
-corrected as supplied by Ziyang Ding. A first-party coauthor
+corrected as supplied by Ziyang Ding. Corresponding authors are marked with
+superscript daggers as supplied by Ziyang Ding: Zhen Zhao (CoLVR and Unbiased
+Top-k Estimation), Lei Bai (Q-Flow), Chi Chen and Derek F. Wong (KARL), and
+Yuexin Ma (UniAfford). Linjian Meng and Siyuan Gan share the equal-contribution
+asterisk in Unbiased Top-k Estimation; KARL's existing equal-contribution
+asterisks are retained. Both symbols are explained above the publication list.
+A first-party coauthor
 [publication list](https://zhaozhen.me/publications/) additionally confirms the
 Q-Flow oral presentation. Logos and paper illustrations belong to their
 respective institutions and authors.
@@ -58,8 +64,9 @@ respective institutions and authors.
 
 The September 2026 NeurIPS acceptance and August 2026 CIKM acceptance were
 supplied by Ziyang Ding. News remains above Publications; Education and
-Internships & Collaborations follow Publications. The News heading includes
-three small decorative fireworks, hidden from assistive technology.
+Internships & Collaborations follow Publications. Each acceptance news item
+ends with small decorative celebration and fireworks icons, hidden from
+assistive technology; the News heading has no icons.
 
 ## Editing and building
 

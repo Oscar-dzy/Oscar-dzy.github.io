@@ -5,7 +5,7 @@ main:
   - title: "Q-Flow: Power-Balance-Aware Graph Learning for Power Flow Calculation with Partially Observed Reactive Power"
     group: selected
     selected_order: 2
-    authors: Zhen Zhao, <strong>Ziyang Ding</strong>, Linjian Meng, Lei Bai
+    authors: Zhen Zhao, <strong>Ziyang Ding</strong>, Linjian Meng, Lei Bai<sup title="Corresponding author">†</sup>
     sort_date: "2026-11-06"
     conference_short: CIKM 2026
     conference: ACM International Conference on Information and Knowledge Management <strong>(CIKM)</strong>, 2026.
@@ -20,7 +20,7 @@ main:
 
   - title: "UniAfford: Token-Routed Multitask Learning for Generalizable 2D-3D Affordance Perception"
     group: others
-    authors: Yuhao Liu, Yiming Zhong, Hanqing Wang, Shaocheng Yan, Yuhang Zhang, Wenzhou Lyu, <strong>Ziyang Ding</strong>, Wei Zhang, Xue Zhao, Jin Pan, Yuexin Ma, Xinge Zhu
+    authors: Yuhao Liu, Yiming Zhong, Hanqing Wang, Shaocheng Yan, Yuhang Zhang, Wenzhou Lyu, <strong>Ziyang Ding</strong>, Wei Zhang, Xue Zhao, Jin Pan, Yuexin Ma<sup title="Corresponding author">†</sup>, Xinge Zhu
     sort_date: "2026-09-29"
     conference_short: arXiv 2026
     conference: arXiv preprint arXiv:2609.37264, 2026.
@@ -33,7 +33,7 @@ main:
 
   - title: "Unbiased Top-k Estimation for On-Policy Distillation"
     group: others
-    authors: Linjian Meng, Siyuan Gan, YuHan Li, Xiran Wang, <strong>Ziyang Ding</strong>, Zitang Gou, Yiming Wu, Zhen Zhao
+    authors: Linjian Meng<sup title="Equal contribution">*</sup>, Siyuan Gan<sup title="Equal contribution">*</sup>, YuHan Li, Xiran Wang, <strong>Ziyang Ding</strong>, Zitang Gou, Yiming Wu, Zhen Zhao<sup title="Corresponding author">†</sup>
     sort_date: "2026-09-28"
     conference_short: arXiv 2026
     conference: arXiv preprint arXiv:2609.34447, 2026.
@@ -46,14 +46,14 @@ main:
   - title: "CoLVR: Enhancing Exploratory Latent Visual Reasoning via Contrastive Optimization"
     group: selected
     selected_order: 1
-    authors: <strong>Ziyang Ding</strong>, Linjian Meng, Yiming Wu, Yuhan Li, Yuhao Liu, Zhen Zhao
+    authors: <strong>Ziyang Ding</strong>, Linjian Meng, Yiming Wu, Yuhan Li, Yuhao Liu, Zhen Zhao<sup title="Corresponding author">†</sup>
     sort_date: "2026-05-09"
     conference_short: NeurIPS 2026
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
     pdf: https://arxiv.org/pdf/2605.08802
     code: https://github.com/Oscar-dzy/CoLVR
     page: https://oscar-dzy.github.io/CoLVR-project-page/
-    page_icon: true
+    page_before_code: true
     image: ./assets/img/publications/colvr.png
     image_height: 824
     image_alt: CoLVR method framework with latent contrastive learning and trajectory rewards
@@ -62,7 +62,7 @@ main:
   - title: "KARL: Knowledge-Aware Reasoning and Reinforcement Learning for Knowledge-Intensive Visual Grounding"
     group: selected
     selected_order: 3
-    authors: Xinyu Ma*, <strong>Ziyang Ding*</strong>, Zhicong Luo, Chi Chen, Zonghao Guo, Derek F. Wong, Zhen Zhao, Xiaoyi Feng, Maosong Sun
+    authors: Xinyu Ma<sup title="Equal contribution">*</sup>, <strong>Ziyang Ding<sup title="Equal contribution">*</sup></strong>, Zhicong Luo, Chi Chen<sup title="Corresponding author">†</sup>, Zonghao Guo, Derek F. Wong<sup title="Corresponding author">†</sup>, Zhen Zhao, Xiaoyi Feng, Maosong Sun
     sort_date: "2026-04-02"
     conference_short: arXiv 2026
     conference: arXiv preprint arXiv:2503.12797, 2026.
