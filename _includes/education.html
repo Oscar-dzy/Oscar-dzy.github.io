@@ -4,7 +4,7 @@
   <div class="education-entry">
     <div class="institution-logos{% if entry.logos.size > 1 %} joint-logos{% endif %}">
       {% for logo in entry.logos %}
-      <img src="{{ logo.image }}" alt="{{ logo.alt }}" width="64" height="64" loading="lazy">
+      <img src="{{ logo.image }}"{% if logo.wordmark %} class="lab-wordmark"{% endif %} alt="{{ logo.alt }}" width="64" height="64" loading="lazy">
       {% endfor %}
     </div>
     <div class="education-details">

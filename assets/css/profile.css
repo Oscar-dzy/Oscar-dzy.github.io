@@ -9,12 +9,23 @@ header .image.avatar img {
 
 .email-link { color: inherit; }
 .email-link email { font-family: inherit; font-size: 15px; }
+.news-fireworks {
+  display: inline-block;
+  margin-left: 6px;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: 0.65em;
+  font-weight: normal;
+  vertical-align: 2px;
+  white-space: nowrap;
+}
 section > h2:not(:first-child) { margin-top: 28px; }
 .education-list, .experience-list { margin-bottom: 24px; }
 .education-entry, .experience-entry { display: flex; align-items: center; gap: 18px; margin-bottom: 20px; }
-.institution-logos { display: flex; flex: 0 0 120px; justify-content: center; align-items: center; gap: 8px; }
+.institution-logos { display: flex; flex: 0 0 136px; justify-content: center; align-items: center; gap: 8px; }
 .institution-logos img { width: 64px; height: 64px; object-fit: contain; }
 .joint-logos img { width: 56px; height: 56px; }
+.joint-logos img:first-child { width: 48px; height: 56px; }
+.joint-logos .lab-wordmark { width: 80px; height: auto; }
 .education-details, .experience-details { flex: 1; min-width: 0; }
 .entry-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
 .institution-name { font-weight: 500; }
@@ -27,17 +38,28 @@ section > h2:not(:first-child) { margin-top: 28px; }
 
 .publication-note { font-size: 0.92em; margin-bottom: 20px; }
 .publications { margin-top: 0; }
-.publication-group-title { font-size: 1.1em; font-weight: 500; margin: 24px 0 20px; }
+.publication-group-title {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 24px 0 20px;
+  padding: 6px 12px;
+  border-left: 3px solid #e6c568;
+  border-radius: 2px;
+  background: #fff5cc;
+}
 .publications ol.bibliography > li { margin-bottom: 26px; }
 .publications .pub-row { align-items: flex-start; gap: 22px; }
 .publication-image { position: relative; flex: 0 0 172px; margin-top: 12px; }
+.publication-figure-link { display: block; cursor: zoom-in; }
 .publications ol.bibliography .publication-image .teaser {
   display: block;
   box-sizing: border-box;
   width: 172px;
   height: auto;
+  aspect-ratio: 3 / 2;
   margin: 0;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: var(--figure-position, center);
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -72,6 +94,7 @@ a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; }
   .entry-date { color: #b5b5bf; }
   .publication-badge { background: #146f99; }
   .publication-highlight { color: #ffab9f; }
+  .publication-group-title { background: #3d3520; border-left-color: #a88a3b; color: #f1d894; }
 }
 
 @media screen and (max-width: 640px) {
@@ -79,6 +102,7 @@ a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; }
   .institution-logos { flex-basis: 80px; gap: 4px; }
   .joint-logos { flex-direction: column; }
   .institution-logos img { width: 48px; height: 48px; }
+  .joint-logos .lab-wordmark { width: 72px; height: auto; }
   .entry-heading { flex-wrap: wrap; gap: 0 10px; }
   .education-details .entry-date { order: 1; }
   .publications .pub-row { gap: 15px; }
@@ -91,4 +115,5 @@ a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; }
   .publication-image { flex-basis: auto; }
   .publications ol.bibliography .publication-image .teaser { width: 180px; height: auto; }
   .institution-logos { flex-basis: 60px; }
+  .joint-logos .lab-wordmark { width: 60px; }
 }

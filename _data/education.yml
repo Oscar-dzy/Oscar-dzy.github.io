@@ -8,8 +8,9 @@ main:
     logos:
       - image: ./assets/img/logos/sjtu.png
         alt: Shanghai Jiao Tong University emblem
-      - image: ./assets/img/logos/shanghai-ai-lab.png
-        alt: Shanghai AI Laboratory logo
+      - image: ./assets/img/logos/shanghai-ai-lab-complete.webp
+        alt: Shanghai AI Laboratory full logo with Chinese and English names
+        wordmark: true
 
   - institution: Shandong University
     url: https://www.sdu.edu.cn/

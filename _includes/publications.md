@@ -1,5 +1,5 @@
 <h2 id="publications">Publications</h2>
-<p class="publication-note">Newest first in each group. <a href="{{ site.google_scholar }}">Google Scholar</a> · * Equal contribution.</p>
+<p class="publication-note">Newest first in each group. <a href="{{ site.google_scholar }}">Google Scholar</a> · * Equal contribution.<br>Click any figure to view it in full.</p>
 <div class="publications">
   {% assign publication_groups = "selected,others" | split: "," %}
   {% for group in publication_groups %}
@@ -15,8 +15,8 @@
     <li>
       <div class="pub-row">
         <div class="publication-image">
-          <a href="{% if paper.pdf %}{{ paper.pdf }}{% elsif paper.paper %}{{ paper.paper }}{% else %}{{ paper.page }}{% endif %}" aria-label="Read {{ paper.title | escape }}">
-            <img src="{{ paper.image }}" class="teaser" alt="{{ paper.image_alt }}" width="1200" height="{{ paper.image_height }}" loading="lazy">
+          <a href="{{ paper.image }}" class="publication-figure-link" target="_blank" rel="noopener noreferrer" aria-label="View full figure for {{ paper.title | escape }}" title="View full figure">
+            <img src="{{ paper.image }}" class="teaser"{% if paper.image_position %} style="--figure-position: {{ paper.image_position }};"{% endif %} alt="{{ paper.image_alt }}" width="1200" height="{{ paper.image_height }}" loading="lazy">
           </a>
           <span class="publication-badge">{{ paper.conference_short }}</span>
         </div>

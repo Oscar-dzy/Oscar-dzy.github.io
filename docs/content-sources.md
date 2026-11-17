@@ -34,8 +34,12 @@ preprint in the profile, although its original arXiv submission was in 2025.
 
 PDF thumbnails are rendered from the original PDFs, then cropped to the original
 figures with page margins and captions removed. All five thumbnails are
-1200 px wide and displayed at a shared responsive width with their natural
-aspect ratios; there is no fixed-height white frame. They are not generated
+1200 px wide. The previews share a responsive 3:2 aspect ratio and use
+`object-fit: cover`, with focal positions for Q-Flow, KARL, and TT-OPD.
+This keeps preview sizes consistent without adding blank padding or stretching
+the figures. Clicking a preview opens the unchanged full figure in a new tab;
+paper titles and publication buttons retain their original destinations.
+Selected and Others have pale-yellow heading bars. They are not generated
 illustrations. The author name Zitang Gou in Unbiased Top-k Estimation was
 corrected as supplied by Ziyang Ding. A first-party coauthor
 [publication list](https://zhaozhen.me/publications/) additionally confirms the
@@ -47,14 +51,15 @@ respective institutions and authors.
 - Portrait: the replacement photograph supplied by Ziyang Ding on November 18, 2026, stored unchanged as `assets/img/ziyang-ding-portrait.jpg`.
 - Shanghai Jiao Tong University: [official emblem SVG](https://www.sjtu.edu.cn/resource/assets/img/svg/Min-logo-pic.svg), rasterized to `assets/img/logos/sjtu.png`.
 - Shandong University: [official logo SVG](https://www.sdu.edu.cn/images/logo.svg), cropped to its emblem and displayed in burgundy as `assets/img/logos/shandong-university.png`.
-- Shanghai AI Laboratory: [official wordmark](https://www.shlab.org.cn/static/asset/2025/imgs/logo.webp), cropped to its symbol and displayed in blue as `assets/img/logos/shanghai-ai-lab.png`.
+- Shanghai AI Laboratory: [official full stacked logo](https://www.shlab.org.cn/static/img/logo_2.5957e86a.webp), stored unchanged as `assets/img/logos/shanghai-ai-lab-complete.webp`. The full emblem, Chinese name, and English name are visible. This replaces the previous symbol-only crop.
 - Qiyuan Laboratory: [official recruitment site](https://qiyuanzp.zhiye.com/), whose configuration points to the [original logo](https://portal-oss.zhiye.com/607793/image/ddc3e99b-eb3c-4e38-8093-562956fd2394.png). Its symbol is cropped into `assets/img/logos/qiyuan-laboratory.png`.
 
 ## News and section order
 
 The September 2026 NeurIPS acceptance and August 2026 CIKM acceptance were
 supplied by Ziyang Ding. News remains above Publications; Education and
-Internships & Collaborations follow Publications.
+Internships & Collaborations follow Publications. The News heading includes
+three small decorative fireworks, hidden from assistive technology.
 
 ## Editing and building
 

@@ -13,6 +13,7 @@ main:
     page: https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html
     scholar: https://scholar.google.com/citations?view_op=view_citation&user=SuFIjWQAAAAJ&citation_for_view=SuFIjWQAAAAJ:zYLM7Y9cAGgC
     image: ./assets/img/publications/q-flow.png
+    image_position: 40% 50%
     image_height: 433
     image_alt: Q-Flow method framework with hierarchical information fusion and multi-order gated KAN
     notes: Oral Presentation
@@ -38,6 +39,7 @@ main:
     conference: arXiv preprint arXiv:2609.34447, 2026.
     pdf: https://arxiv.org/pdf/2609.34447
     image: ./assets/img/publications/on-policy-distillation.png
+    image_position: 50% 65%
     image_height: 1447
     image_alt: TT-OPD method framework for unbiased on-policy distillation
 
@@ -67,5 +69,6 @@ main:
     pdf: https://arxiv.org/pdf/2503.12797
     code: https://github.com/thunlp/KARL
     image: ./assets/img/publications/karl.png
+    image_position: 0% 50%
     image_height: 411
     image_alt: KARL Figure 1 with knowledge-intensive visual grounding examples and benchmark results
