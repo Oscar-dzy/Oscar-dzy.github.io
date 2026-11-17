@@ -84,6 +84,8 @@ has no icons.
   `_data/publications.yml`, and `_data/honors.yml`.
 - Content styles: `assets/css/profile.css`; the template's original Crimson Pro
   font and serif setting are retained.
+- The profile stylesheet URL includes the Jekyll build timestamp so published
+  font and layout changes refresh cached browser styles automatically.
 - Build with `bundle install` followed by `bundle exec jekyll build`.
 - `html_source_file/` contains a synchronized static export for preview or
   static-only hosting; its content and assets match the Jekyll build.
