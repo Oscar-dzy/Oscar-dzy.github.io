@@ -32,7 +32,7 @@ main:
 
   - title: "Unbiased Top-k Estimation for On-Policy Distillation"
     group: others
-    authors: Linjian Meng, Siyuan Gan, YuHan Li, Xiran Wang, <strong>Ziyang Ding</strong>, Ditang Gou, Yiming Wu, Zhen Zhao
+    authors: Linjian Meng, Siyuan Gan, YuHan Li, Xiran Wang, <strong>Ziyang Ding</strong>, Zitang Gou, Yiming Wu, Zhen Zhao
     sort_date: "2026-09-28"
     conference_short: arXiv 2026
     conference: arXiv preprint arXiv:2609.34447, 2026.
@@ -50,6 +50,8 @@ main:
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
     pdf: https://arxiv.org/pdf/2605.08802
     code: https://github.com/Oscar-dzy/CoLVR
+    page: https://oscar-dzy.github.io/CoLVR-project-page/
+    page_icon: true
     image: ./assets/img/publications/colvr.png
     image_height: 824
     image_alt: CoLVR method framework with latent contrastive learning and trajectory rewards

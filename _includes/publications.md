@@ -26,9 +26,10 @@
           <div class="periodical"><em>{{ paper.conference }}</em></div>
           <div class="links">
             {% if paper.pdf %}<a href="{{ paper.pdf }}" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
+            {% if paper.page and paper.page_icon %}<a href="{{ paper.page }}" class="btn" target="_blank" rel="noopener noreferrer" aria-label="CoLVR project page" title="CoLVR project page"><i class="fa-solid fa-link" aria-hidden="true"></i></a>{% endif %}
             {% if paper.paper %}<a href="{{ paper.paper }}" class="btn" target="_blank" rel="noopener noreferrer">Paper</a>{% endif %}
             {% if paper.code %}<a href="{{ paper.code }}" class="btn" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
-            {% if paper.page %}<a href="{{ paper.page }}" class="btn" target="_blank" rel="noopener noreferrer">{% if paper.pdf %}Project Page{% else %}Conference{% endif %}</a>{% endif %}
+            {% if paper.page and paper.page_icon != true %}<a href="{{ paper.page }}" class="btn" target="_blank" rel="noopener noreferrer">{% if paper.pdf %}Project Page{% else %}Conference{% endif %}</a>{% endif %}
             {% if paper.scholar %}<a href="{{ paper.scholar }}" class="btn" target="_blank" rel="noopener noreferrer">Scholar</a>{% endif %}
             {% if paper.notes %}<span class="publication-highlight">{{ paper.notes }}</span>{% endif %}
           </div>

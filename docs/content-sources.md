@@ -29,14 +29,15 @@ preprint in the profile, although its original arXiv submission was in 2025.
 | Q-Flow | [Official CIKM program](https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html), [ACM DOI](https://doi.org/10.1145/3799682.3841002) | `assets/img/publications/q-flow.png`: method framework uploaded by Ziyang Ding on November 18, 2026; white page margins trimmed. The paper link uses its verified DOI. |
 | UniAfford | [arXiv](https://arxiv.org/abs/2609.37264), [project](https://4dvlab.github.io/UniAfford/) | `assets/img/publications/uniafford.png`: method framework, Figure 2, PDF page 5. |
 | Unbiased Top-k Estimation | [arXiv](https://arxiv.org/abs/2609.34447) | `assets/img/publications/on-policy-distillation.png`: TT-OPD method framework, Figure 1, PDF page 1. |
-| CoLVR | [arXiv](https://arxiv.org/abs/2605.08802), [author repository](https://github.com/Oscar-dzy/CoLVR) | `assets/img/publications/colvr.png`: method framework, Figure 2, PDF page 5. NeurIPS acceptance is confirmed in the arXiv comments. |
+| CoLVR | [arXiv](https://arxiv.org/abs/2605.08802), [author repository](https://github.com/Oscar-dzy/CoLVR), [project page](https://oscar-dzy.github.io/CoLVR-project-page/) | `assets/img/publications/colvr.png`: method framework, Figure 2, PDF page 5. NeurIPS acceptance is confirmed in the arXiv comments. The project link is displayed as a link icon between PDF and Code. |
 | KARL | [arXiv](https://arxiv.org/abs/2503.12797), [author repository](https://github.com/thunlp/KARL) | `assets/img/publications/karl.png`: Figure 1, PDF page 2, as requested, showing the knowledge-grounding gap and benchmark comparison. |
 
 PDF thumbnails are rendered from the original PDFs, then cropped to the original
 figures with page margins and captions removed. All five thumbnails are
 1200 px wide and displayed at a shared responsive width with their natural
 aspect ratios; there is no fixed-height white frame. They are not generated
-illustrations. A first-party coauthor
+illustrations. The author name Zitang Gou in Unbiased Top-k Estimation was
+corrected as supplied by Ziyang Ding. A first-party coauthor
 [publication list](https://zhaozhen.me/publications/) additionally confirms the
 Q-Flow oral presentation. Logos and paper illustrations belong to their
 respective institutions and authors.
