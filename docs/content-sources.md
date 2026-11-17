@@ -12,6 +12,13 @@ Statistics bachelor's major were also supplied by Ziyang Ding. Supervisor names
 link to their supplied homepages. The doctorate's 2031 completion date is marked
 expected.
 
+The Chinese name 丁子杨 was supplied by Ziyang Ding and appears beside the
+English name in About Me. It uses a self-hosted three-character subset of
+[Ma Shan Zheng](https://github.com/googlefonts/mashanzheng), a brush-calligraphy
+font distributed through Google Fonts under the SIL Open Font License.
+The license is included at `assets/fonts/OFL-MaShanZheng.txt`. The rest of the
+page retains Crimson Pro.
+
 ## Publications
 
 The five entries and their order were checked against the
@@ -29,7 +36,7 @@ preprint in the profile, although its original arXiv submission was in 2025.
 | Q-Flow | [Official CIKM program](https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html), [ACM DOI](https://doi.org/10.1145/3799682.3841002) | `assets/img/publications/q-flow.png`: method framework uploaded by Ziyang Ding on November 18, 2026; white page margins trimmed. The paper link uses its verified DOI. |
 | UniAfford | [arXiv](https://arxiv.org/abs/2609.37264), [project](https://4dvlab.github.io/UniAfford/) | `assets/img/publications/uniafford.png`: method framework, Figure 2, PDF page 5. |
 | Unbiased Top-k Estimation | [arXiv](https://arxiv.org/abs/2609.34447) | `assets/img/publications/on-policy-distillation.png`: TT-OPD method framework, Figure 1, PDF page 1. |
-| CoLVR | [arXiv](https://arxiv.org/abs/2605.08802), [author repository](https://github.com/Oscar-dzy/CoLVR), [project page](https://oscar-dzy.github.io/CoLVR-project-page/) | `assets/img/publications/colvr.png`: method framework, Figure 2, PDF page 5. NeurIPS acceptance is confirmed in the arXiv comments. The project link is a Project Page text button matching UniAfford, positioned between PDF and Code. |
+| CoLVR | [arXiv](https://arxiv.org/abs/2605.08802), [author repository](https://github.com/Oscar-dzy/CoLVR), [project page](https://oscar-dzy.github.io/CoLVR-project-page/) | `assets/img/publications/colvr.png`: method framework, Figure 2, PDF page 5. NeurIPS acceptance is confirmed in the arXiv comments. The project link is a Project Page text button matching UniAfford, positioned after Code. |
 | KARL | [arXiv](https://arxiv.org/abs/2503.12797), [author repository](https://github.com/thunlp/KARL) | `assets/img/publications/karl.png`: Figure 1, PDF page 2, as requested, showing the knowledge-grounding gap and benchmark comparison. |
 
 PDF thumbnails are rendered from the original PDFs, then cropped to the original
@@ -65,8 +72,9 @@ respective institutions and authors.
 The September 2026 NeurIPS acceptance and August 2026 CIKM acceptance were
 supplied by Ziyang Ding. News remains above Publications; Education and
 Internships & Collaborations follow Publications. Each acceptance news item
-ends with small decorative celebration and fireworks icons, hidden from
-assistive technology; the News heading has no icons.
+has exactly two decorative 🎉 icons immediately after the date and before
+the acceptance sentence, hidden from assistive technology. The News heading
+has no icons.
 
 ## Editing and building
 

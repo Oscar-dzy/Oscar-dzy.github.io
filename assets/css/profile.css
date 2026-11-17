@@ -1,4 +1,21 @@
 /* Content additions inherit the template's Crimson Pro typography. */
+@font-face {
+  font-family: "Ma Shan Zheng Name";
+  src: url("../fonts/ma-shan-zheng-name.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+4E01, U+5B50, U+6768;
+}
+.chinese-name {
+  font-family: "Ma Shan Zheng Name", "Kaiti SC", STKaiti, KaiTi, serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: #043361;
+  white-space: nowrap;
+}
+
 header .image.avatar img {
   box-sizing: content-box;
   width: 128px;
@@ -11,7 +28,7 @@ header .image.avatar img {
 .email-link email { font-family: inherit; font-size: 15px; }
 .news-fireworks {
   display: inline-block;
-  margin-left: 6px;
+  margin-right: 3px;
   font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
   font-size: 0.9em;
   font-weight: normal;
@@ -91,6 +108,7 @@ section > h2:not(:first-child) { margin-top: 28px; }
 a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; }
 
 @media (prefers-color-scheme: dark) {
+  .chinese-name { color: #75b9d7; }
   .entry-date { color: #b5b5bf; }
   .publication-badge { background: #146f99; }
   .publication-highlight { color: #ffab9f; }
