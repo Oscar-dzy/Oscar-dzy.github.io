@@ -43,7 +43,7 @@ respective institutions and authors.
 
 ## Portrait and institution logos
 
-- Portrait: [public Scholar profile photograph](https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SuFIjWQAAAAJ&citpid=6).
+- Portrait: the replacement photograph supplied by Ziyang Ding on November 18, 2026, stored unchanged as `assets/img/ziyang-ding-portrait.jpg`.
 - Shanghai Jiao Tong University: [official emblem SVG](https://www.sjtu.edu.cn/resource/assets/img/svg/Min-logo-pic.svg), rasterized to `assets/img/logos/sjtu.png`.
 - Shandong University: [official logo SVG](https://www.sdu.edu.cn/images/logo.svg), cropped to its emblem and displayed in burgundy as `assets/img/logos/shandong-university.png`.
 - Shanghai AI Laboratory: [official wordmark](https://www.shlab.org.cn/static/asset/2025/imgs/logo.webp), cropped to its symbol and displayed in blue as `assets/img/logos/shanghai-ai-lab.png`.
