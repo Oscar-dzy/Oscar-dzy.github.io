@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">ZD Monogram</title>
+  <desc id="desc">White geometric Z and D initials on a midnight blue rounded square.</desc>
+  <rect width="64" height="64" rx="14" fill="#0b3458"/>
+  <path d="M10 18h22v5L18 41h14v6H9v-5l14-18H10z" fill="#fffdf5"/>
+  <path d="M36 18h7c10 0 15 5 15 14.5S53 47 43 47h-7zm6 6v17h2c5 0 8-3 8-8.5S49 24 44 24z" fill="#fffdf5" fill-rule="evenodd"/>
+</svg>

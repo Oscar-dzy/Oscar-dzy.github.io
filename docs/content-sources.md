@@ -67,6 +67,18 @@ respective institutions and authors.
 - Shanghai AI Laboratory: [official full stacked logo](https://www.shlab.org.cn/static/img/logo_2.5957e86a.webp), stored unchanged as `assets/img/logos/shanghai-ai-lab-complete.webp`. The full emblem, Chinese name, and English name are visible. This replaces the previous symbol-only crop.
 - Qiyuan Laboratory: [official recruitment site](https://qiyuanzp.zhiye.com/), whose configuration points to the [original logo](https://portal-oss.zhiye.com/607793/image/ddc3e99b-eb3c-4e38-8093-562956fd2394.png). Its symbol is cropped into `assets/img/logos/qiyuan-laboratory.png`.
 
+## Personal favicon
+
+Ziyang Ding selected concept 01, **ZD Monogram**, on November 18, 2026.
+The original vector artwork is `assets/img/zd-favicon.svg`: ivory ZD initials
+on a midnight-blue rounded square, with transparent outer corners. It was
+chosen from five favicon concepts prepared for the homepage.
+Native SVG rasterization supplies 32, 180, and 512 px PNG assets. The root
+`favicon.ico` includes 16, 32, 48, 64, 128, and 256 px versions. The homepage
+links SVG, PNG and ICO favicons and an Apple touch icon. Light and dark
+browser themes share the selected design; the template favicon switcher
+is no longer loaded.
+
 ## News and section order
 
 The September 2026 NeurIPS acceptance and August 2026 CIKM acceptance were
