@@ -1,0 +1,17 @@
+<h2 id="experience">Internships &amp; Collaborations</h2>
+<div class="experience-list">
+  {% for entry in site.data.experience.main %}
+  <div class="experience-entry">
+    <div class="institution-logos">
+      <img src="{{ entry.logo }}" alt="{{ entry.institution }} logo" width="64" height="64" loading="lazy">
+    </div>
+    <div class="experience-details">
+      <div class="entry-heading">
+        <strong><a href="{{ entry.url }}">{{ entry.institution }}</a></strong>
+        <span class="entry-date">{{ entry.dates }}</span>
+      </div>
+      <div>{{ entry.role }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

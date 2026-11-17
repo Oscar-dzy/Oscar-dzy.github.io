@@ -1,0 +1,20 @@
+main:
+  - institution: Shanghai Jiao Tong University
+    url: https://www.sjtu.edu.cn/
+    partner: Shanghai AI Laboratory
+    partner_url: https://www.shlab.org.cn/
+    degree: Ph.D., Joint Training Program
+    dates: 2026–2031 (expected)
+    logos:
+      - image: ./assets/img/logos/sjtu.png
+        alt: Shanghai Jiao Tong University emblem
+      - image: ./assets/img/logos/shanghai-ai-lab.png
+        alt: Shanghai AI Laboratory logo
+
+  - institution: Shandong University
+    url: https://www.sdu.edu.cn/
+    degree: Bachelor's Degree in Statistics
+    dates: 2022–2026
+    logos:
+      - image: ./assets/img/logos/shandong-university.png
+        alt: Shandong University emblem

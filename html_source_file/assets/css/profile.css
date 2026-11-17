@@ -1,0 +1,93 @@
+/* Content additions inherit the template's Crimson Pro typography. */
+header .image.avatar img {
+  box-sizing: content-box;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+
+.email-link { color: inherit; }
+.email-link email { font-family: inherit; font-size: 15px; }
+section > h2:not(:first-child) { margin-top: 28px; }
+.education-list, .experience-list { margin-bottom: 24px; }
+.education-entry, .experience-entry { display: flex; align-items: center; gap: 18px; margin-bottom: 20px; }
+.institution-logos { display: flex; flex: 0 0 120px; justify-content: center; align-items: center; gap: 8px; }
+.institution-logos img { width: 64px; height: 64px; object-fit: contain; }
+.joint-logos img { width: 56px; height: 56px; }
+.education-details, .experience-details { flex: 1; min-width: 0; }
+.entry-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.institution-name { font-weight: 500; }
+.entry-date { flex-shrink: 0; color: #777; font-size: 0.92em; }
+.experience-entry { margin-bottom: 16px; }
+.honors-list { padding-left: 20px; }
+.honors-list li { padding-left: 2px; margin-bottom: 9px; }
+.honors-list li > span:first-child { display: inline; }
+.honors-list .entry-date { margin-left: 12px; white-space: nowrap; }
+
+.publication-note { font-size: 0.92em; margin-bottom: 20px; }
+.publications { margin-top: 0; }
+.publication-group-title { font-size: 1.1em; font-weight: 500; margin: 24px 0 20px; }
+.publications ol.bibliography > li { margin-bottom: 26px; }
+.publications .pub-row { align-items: flex-start; gap: 22px; }
+.publication-image { position: relative; flex: 0 0 172px; margin-top: 12px; }
+.publications ol.bibliography .publication-image .teaser {
+  display: block;
+  box-sizing: border-box;
+  width: 172px;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: none;
+}
+.publication-badge {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: translate(-4px, -50%);
+  margin: 0;
+  padding: 2px 7px;
+  border-radius: 2px;
+  background: #043361;
+  color: #fff;
+  font-size: 0.75em;
+  line-height: 1.4;
+}
+.publication-details { flex: 1; min-width: 0; }
+.publication-details .title { line-height: 1.3; margin-bottom: 5px; }
+.publication-details .author { line-height: 1.4; margin-bottom: 4px; }
+.publication-details .periodical { line-height: 1.4; }
+.publication-details .links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 8px; }
+.publications ol.bibliography .links a.btn { font-size: 12px; line-height: 1.4; border-radius: 2px; }
+.publication-highlight { color: #b23b30; font-size: 0.88em; font-style: italic; }
+a:focus-visible { outline: 2px solid #39c; outline-offset: 4px; }
+
+@media (prefers-color-scheme: dark) {
+  .entry-date { color: #b5b5bf; }
+  .publication-badge { background: #146f99; }
+  .publication-highlight { color: #ffab9f; }
+}
+
+@media screen and (max-width: 640px) {
+  .education-entry, .experience-entry { gap: 12px; }
+  .institution-logos { flex-basis: 80px; gap: 4px; }
+  .joint-logos { flex-direction: column; }
+  .institution-logos img { width: 48px; height: 48px; }
+  .entry-heading { flex-wrap: wrap; gap: 0 10px; }
+  .education-details .entry-date { order: 1; }
+  .publications .pub-row { gap: 15px; }
+  .publication-image { flex-basis: 124px; }
+  .publications ol.bibliography .publication-image .teaser { width: 124px; height: auto; }
+}
+
+@media screen and (max-width: 400px) {
+  .publications .pub-row { flex-direction: column; gap: 12px; }
+  .publication-image { flex-basis: auto; }
+  .publications ol.bibliography .publication-image .teaser { width: 180px; height: auto; }
+  .institution-logos { flex-basis: 60px; }
+}

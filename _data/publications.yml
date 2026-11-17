@@ -1,22 +1,69 @@
+# Source: https://scholar.google.com/citations?user=SuFIjWQAAAAJ
+# Selected follows the requested order; Others sorts by sort_date descending.
+# KARL is listed as a 2026 preprint on the profile (first arXiv submission: 2025).
 main:
-
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
-
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: "Q-Flow: Power-Balance-Aware Graph Learning for Power Flow Calculation with Partially Observed Reactive Power"
+    group: selected
+    selected_order: 2
+    authors: Zhen Zhao, <strong>Ziyang Ding</strong>, Linjian Meng, Lei Bai
+    sort_date: "2026-11-06"
+    conference_short: CIKM 2026
+    conference: ACM International Conference on Information and Knowledge Management <strong>(CIKM)</strong>, 2026.
+    paper: https://doi.org/10.1145/3799682.3841002
+    page: https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html
+    scholar: https://scholar.google.com/citations?view_op=view_citation&user=SuFIjWQAAAAJ&citation_for_view=SuFIjWQAAAAJ:zYLM7Y9cAGgC
+    image: ./assets/img/publications/q-flow.png
+    image_height: 433
+    image_alt: Q-Flow method framework with hierarchical information fusion and multi-order gated KAN
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+
+  - title: "UniAfford: Token-Routed Multitask Learning for Generalizable 2D-3D Affordance Perception"
+    group: others
+    authors: Yuhao Liu, Yiming Zhong, Hanqing Wang, Shaocheng Yan, Yuhang Zhang, Wenzhou Lyu, <strong>Ziyang Ding</strong>, Wei Zhang, Xue Zhao, Jin Pan, Yuexin Ma, Xinge Zhu
+    sort_date: "2026-09-29"
+    conference_short: arXiv 2026
+    conference: arXiv preprint arXiv:2609.37264, 2026.
+    pdf: https://arxiv.org/pdf/2609.37264
+    code: https://github.com/4DVLab/UniAfford
+    page: https://4dvlab.github.io/UniAfford/
+    image: ./assets/img/publications/uniafford.png
+    image_height: 539
+    image_alt: UniAfford method framework for unified 2D-3D affordance grounding
+
+  - title: "Unbiased Top-k Estimation for On-Policy Distillation"
+    group: others
+    authors: Linjian Meng, Siyuan Gan, YuHan Li, Xiran Wang, <strong>Ziyang Ding</strong>, Ditang Gou, Yiming Wu, Zhen Zhao
+    sort_date: "2026-09-28"
+    conference_short: arXiv 2026
+    conference: arXiv preprint arXiv:2609.34447, 2026.
+    pdf: https://arxiv.org/pdf/2609.34447
+    image: ./assets/img/publications/on-policy-distillation.png
+    image_height: 1447
+    image_alt: TT-OPD method framework for unbiased on-policy distillation
+
+  - title: "CoLVR: Enhancing Exploratory Latent Visual Reasoning via Contrastive Optimization"
+    group: selected
+    selected_order: 1
+    authors: <strong>Ziyang Ding</strong>, Linjian Meng, Yiming Wu, Yuhan Li, Yuhao Liu, Zhen Zhao
+    sort_date: "2026-05-09"
+    conference_short: NeurIPS 2026
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
+    pdf: https://arxiv.org/pdf/2605.08802
+    code: https://github.com/Oscar-dzy/CoLVR
+    image: ./assets/img/publications/colvr.png
+    image_height: 824
+    image_alt: CoLVR method framework with latent contrastive learning and trajectory rewards
+    notes: Poster
+
+  - title: "KARL: Knowledge-Aware Reasoning and Reinforcement Learning for Knowledge-Intensive Visual Grounding"
+    group: selected
+    selected_order: 3
+    authors: Xinyu Ma*, <strong>Ziyang Ding*</strong>, Zhicong Luo, Chi Chen, Zonghao Guo, Derek F. Wong, Zhen Zhao, Xiaoyi Feng, Maosong Sun
+    sort_date: "2026-04-02"
+    conference_short: arXiv 2026
+    conference: arXiv preprint arXiv:2503.12797, 2026.
+    pdf: https://arxiv.org/pdf/2503.12797
+    code: https://github.com/thunlp/KARL
+    image: ./assets/img/publications/karl.png
+    image_height: 411
+    image_alt: KARL Figure 1 with knowledge-intensive visual grounding examples and benchmark results

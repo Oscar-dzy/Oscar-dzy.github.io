@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
+    <link rel="stylesheet" href="./assets/css/profile.css">
 
   </head>
   <body>
@@ -40,7 +41,7 @@
       <header>
         
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <span class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of {{ site.title }}" width="128" height="128" /></span>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
@@ -53,31 +54,36 @@
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
+        {% if site.affiliation_secondary %}
+        <a href="{{ site.affiliation_secondary_link }}" rel="noopener"><autocolor>{{ site.affiliation_secondary }}</autocolor></a>
+        <br>
+        {% endif %}
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <a class="email-link" href="mailto:{{ site.email }}"><email>{{ site.email }}</email></a>
         {% endif %}
 
         <br>
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" aria-label="Google Scholar" title="Google Scholar">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" aria-label="Curriculum vitae" title="Curriculum vitae">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" aria-label="GitHub" title="GitHub">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
 
+        {% comment %}Other social icons are disabled until personal links are provided.
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
@@ -89,6 +95,7 @@
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
+        {% endcomment %}
         </div>
         <br>
 

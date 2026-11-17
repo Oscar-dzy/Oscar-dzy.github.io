@@ -1,26 +1,31 @@
 # Basic Information 
-title: Your Name
+title: Ziyang Ding
 position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+affiliation: Shanghai Jiao Tong University
+affiliation_link: https://www.sjtu.edu.cn/
+affiliation_secondary: Shanghai AI Laboratory
+affiliation_secondary_link: https://www.shlab.org.cn/
+email: ziyangding@sjtu.edu.cn
+lang: en-US
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Ziyang Ding, multimodal large language models, reasoning, decision making, Shanghai Jiao Tong University, Shanghai AI Laboratory
+description: Academic homepage of Ziyang Ding, a Ph.D. student at Shanghai Jiao Tong University and Shanghai AI Laboratory working on reasoning and decision-making in multimodal large language models.
+canonical: https://oscar-dzy.github.io/
+url: https://oscar-dzy.github.io
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
+google_scholar: https://scholar.google.com/citations?user=SuFIjWQAAAAJ&hl=en
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+github_link: https://github.com/Oscar-dzy
+# linkedin: https://www.linkedin.com/
+# twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
+avatar: ./assets/img/ziyang-ding.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
@@ -38,11 +43,11 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+# google_analytics:
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+# The theme's layout, includes, and Sass are maintained locally in this project.
 
 # The following files will be removed from the generated website.
 exclude:
@@ -55,3 +60,5 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - scripts/
+  - docs/

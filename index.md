@@ -4,20 +4,25 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am **Ziyang Ding**, a Ph.D. student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) in a joint training program with [Shanghai AI Laboratory](https://www.shlab.org.cn/). I am jointly advised by [Zhen Zhao](http://zhaozhen.me/) at Shanghai AI Laboratory and [Yichao Yan](https://daodaofr.github.io/) at Shanghai Jiao Tong University. I received my bachelor's degree in **Statistics** from [Shandong University](https://www.sdu.edu.cn/) in 2026.
+
+My research focuses on **reasoning and decision-making in multimodal large language models**. I am interested in developing models that connect visual understanding with structured reasoning and informed decisions. Through my research, I aim to advance the capabilities of multimodal intelligent systems.
+
+I welcome opportunities for research discussions and collaboration. Please feel free to [contact me](mailto:ziyangding@sjtu.edu.cn).
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Multimodal Large Language Models:** reasoning and decision-making.
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Sept. 2026]** Our paper **CoLVR** has been accepted to **NeurIPS 2026**!
+- **[Aug. 2026]** Our paper **Q-Flow** has been accepted to **CIKM 2026**!
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/education.html %}
+
+{% include_relative _includes/experience.html %}
+
+{% include_relative _includes/honors.html %}
